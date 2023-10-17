@@ -1,8 +1,44 @@
 [
-  ["clean", "wash"],
-  ["happy", "joyful", "pleased", "cheerful"],
-  ["smart", "clever", "bright", "intelligent"],
-  ["big", "massive", "huge", "gigantic", "large"],
-  ["small", "little", "tiny", "miniature", "pettite"],
-  ["serious", "grave", "solemn", "earnest", "thoughtful", "resolute"]
+  [
+    "clean",
+    "wash"
+  ],
+  [
+    "happy",
+    "joyful",
+    "pleased",
+    "cheerful"
+  ],
+  [
+    "smart",
+    "clever",
+    "bright",
+    "intelligent"
+  ],
+  [
+    "big",
+    "massive",
+    "huge",
+    "gigantic",
+    "large"
+  ],
+  [
+    "small",
+    "little",
+    "tiny",
+    "miniature",
+    "pettite"
+  ],
+  [
+    "serious",
+    "grave",
+    "solemn",
+    "earnest",
+    "thoughtful",
+    "resolute"
+  ],
+  [
+    "basic",
+    "simple"
+  ]
 ]
