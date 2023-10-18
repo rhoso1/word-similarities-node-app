@@ -8,15 +8,25 @@ const app = express();
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
-// CORS configuration
 var corsOptions = {
   origin: [
     "http://localhost:4200",
     "http://localhost:8080",
-    "https://rhoso1.github.io/word-similarities-angular-app",
+    "https://rhoso1.github.io",
   ],
 };
 
+// Include CORS headers
+app.use((req, res, next) => {
+  res.header("Access-Control-Allow-Origin", corsOptions.origin);
+  res.header(
+    "Access-Control-Allow-Headers",
+    "Origin, X-Requested-With, Content-Type, Accept"
+  );
+  next();
+});
+
+// Use CORS middleware
 app.use(cors(corsOptions));
 
 // Routes
