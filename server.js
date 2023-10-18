@@ -9,7 +9,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 var corsOptions = {
-  origin: ["http://localhost:4200", "http://localhost:8080"],
+  origin: ["http://localhost:4200", "http://localhost:8080", 'https://rhoso1.github.io/word-similarities-angular-app/search-words'],
 };
 
 app.use(cors(corsOptions));
